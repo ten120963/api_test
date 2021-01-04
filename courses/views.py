@@ -4,5 +4,6 @@ from .models import Course
 from .serializers import CourseSerializer
 
 class CourseView(viewsets.ModelViewSet):
+	#added comment
 	queryset = Course.objects.all()
 	serializer_class = CourseSerializer
